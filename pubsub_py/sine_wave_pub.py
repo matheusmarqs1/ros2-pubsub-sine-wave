@@ -12,7 +12,7 @@ class SinusoidalPublisher(Node):
 		super().__init__('sinusoidal_publisher')
 
 		#Create publisher
-		self.publisher = self.create_publisher(Float64, 'sinusoidal_sign', 10)
+		self.publisher = self.create_publisher(Float64, 'sinusoidal_signal', 10)
 
 		#Create timer to publish sinusoidal sign
 		self.timer = self.create_timer(0.1, self.timer_callback)

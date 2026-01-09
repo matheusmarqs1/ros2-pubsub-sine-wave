@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-		'sine_wave_pub = pubsub_py.sine_wave_pub:main'
+		'sine_wave_pub = pubsub_py.sine_wave_pub:main',
+		'sine_wave_sub = pubsub_py.sine_wave_sub:main'
         ],
     },
 )
